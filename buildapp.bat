@@ -1,0 +1,1 @@
+dotnet publish ./Sokyu.sln -c Release -o ./obj/Docker/publish

@@ -10,7 +10,7 @@ public static class DbConnection
 
     public static void Connect()
     {
-        var client = new MongoClient("mongodb://192.168.11.17");
+        var client = new MongoClient("mongodb://192.168.11.7");
         db = client.GetDatabase("test");
     }
 }
